@@ -104,6 +104,7 @@ nav {
   font-size: 2.5rem;
   color: var(--brown-mid);
 }
+@media (max-width: 900px) { .nav-tagline { font-size: 1.5rem; } }
 @media (max-width: 640px) { .nav-tagline { display: none; } }
 
 /* Mobile nav toggle */
@@ -510,9 +511,15 @@ footer {
   .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
   .pricing-grid { grid-template-columns: 1fr; }
   .price-card.featured { transform: none; }
-  section { padding: 3.5rem 1.2rem; }
-  .arc-grid { flex-wrap: wrap; padding-bottom: 2rem; gap: 1.2rem; margin-bottom: 0; }
+  section { padding: 2rem 1.2rem; }
+  .program-section {
+    padding: 0;
+    .container { width: 100% !important; } 
+  }
+  .arc-grid-section { padding-bottom: 0; }
+  .arc-grid { flex-wrap: wrap; padding-top: 0 !important; padding-bottom: 0 !important; gap: 1.2rem !important; margin-bottom: 0; }
   .arc-grid .bubble-img { width: 200px; height: 200px; transform: none; }
+  .arc-grid .bubble-img:nth-child(1) { --arc-y: 0px !important; }
   .arc-grid .bubble-img:nth-child(n+2) { display: none; }
   .arc-grid .bubble-img:hover { transform: scale(1.07); }
   .arc-label { max-width: 90vw; margin-top: 1rem; }
