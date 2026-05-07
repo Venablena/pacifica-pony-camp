@@ -332,6 +332,7 @@ section { padding: 2rem; }
 
 /* ── Instructor ── */
 .instructor-section {
+  margin-top: 68px;
   background:#90C2D8;
 }
 
@@ -640,7 +641,7 @@ footer {
 
 /* ── Index page backgrounds ── */
 .hero-bg {
-  background-image: url('../images/Klara_pony.jpg');
+  background-image: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url('../images/Klara_pony.jpg');
   background-size: cover;
   background-position: center 30%;
   background-repeat: no-repeat;
