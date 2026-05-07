@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Pacifica Pony Camp 2026</title>
+  <meta name="description" content="Meet Annie Erwin, head instructor at Pacifica Pony Camp. Learn about our riding program, what to bring, and find us at Millwood Ranch in Pacifica, CA." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐴</text></svg>" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- ── Navigation ── -->
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">
+    <span class="horseshoe">🧲</span>
+    Rescue <span>Pony</span> Club
+  </a>
+  <span class="nav-tagline">Summer Camp is Here!</span>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html" class="active">About</a></li>
+    <li><a href="donations.html" class="btn-nav">Donate</a></li>
+  </ul>
+</nav>
+
+<!-- ── Quick Info Bar ── -->
+<div class="info-bar">
+  <div class="info-bar-grid">
+    <div class="info-item"><span class="info-icon">🧢</span> Ages 6–14</div>
+    <div class="info-item"><span class="info-icon">🕘</span> 9am – 2pm, Mon–Fri</div>
+    <div class="info-item"><span class="info-icon">📅</span> June 8 – Aug 11, 2026</div>
+    <a href="signup.html" class="btn btn-primary">Sign Up</a>
+  </div>
+</div>
+
+<!-- ── Instructor ── -->
+<section class="instructor-section">
+  <div class="container">
+    <h1 class="sr-only">About Pacifica Pony Camp</h1>
+    <div class="instructor-card">
+      <div class="instructor-photo">
+        <img src="images/Annie_square.jpg" alt="Annie Erwin walking" />
+      </div>
+      <div class="instructor-info">
+        <span class="section-label">Meet Your Instructor</span>
+        <h2>Annie Erwin</h2>
+        <p>Annie provides individually adapted instruction with patience, care and humor.</p>
+        <p>She has spent her life working with horses, rescue animals, and the young people who love them.</p>
+        <p>She believes we can all learn from horses and nature something that a classroom can't teach.</p>
+        <p>Come discover this gem at the heart of Pacifica for yourself!</p>
+        <p>(415)261-3433</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Riding Section ── -->
+<section>
+  <div class="container">
+    <div class="two-col">
+      <div>
+        <span class="section-label">Learn</span>
+        <h2 class="section-title">Ride with Confidence</h2>
+        <ul class="activity-list">
+          <li><span class="lic">✅</span> No prior riding experience needed</li>
+          <li><span class="lic">✅</span> Small group ratios for individual attention</li>
+          <li><span class="lic">✅</span> Helmets and safety instruction provided</li>
+          <li><span class="lic">✅</span> Gentle, experienced rescue ponies</li>
+        </ul>
+      </div>
+      <div class="col-img">
+        <img src="images/Rider_square.jpg" alt="Camper riding confidently in the arena" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── What to Bring ── -->
+<section class="section-gold">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label">Be Prepared</span>
+      <h2 class="section-title">What to Bring</h2>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">👟</div>
+        <h3>Footwear</h3>
+        <p>Closed-toe shoes or boots with a small heel. No sandals, flip flops, or open-toe shoes around horses.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">👖</div>
+        <h3>Clothing</h3>
+        <p>Long pants are recommended for riding (jeans or leggings). Layer up — Pacifica mornings can be foggy and cool!</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🥙</div>
+        <h3>Packed Lunch</h3>
+        <p>Bring a hearty packed lunch and plenty of water. Ranch life works up an appetite!</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🧴</div>
+        <h3>Sunscreen &amp; Hat</h3>
+        <p>Apply sunscreen before camp. Bring a baseball cap or wide-brimmed hat for outdoor time.</p>
+      </div>
+    </div>
+    <p class="provided-note">
+      <strong>Provided:</strong> Riding helmets, grooming supplies, and all horse-related equipment.
+    </p>
+  </div>
+</section>
+
+<section class="section-stalls">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label">Find Us</span>
+      <h2 class="section-title">Millwood Ranch</h2>
+    </div>
+    <div class="map-wrapper">
+      <iframe
+        src="https://maps.google.com/maps?q=Annie%27s+Smaller+Training+Circle,Pacifica,CA&output=embed&z=15"
+        width="400" height="400"
+        loading="lazy"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ── -->
+<footer>
+  <div class="footer-bottom">
+    <span>© 2026 Pacifica Pony Camp · Rescue Pony Club</span>
+    <span>📞 415-261-3433</span>
+    <span>1 Picardo Ranch, Pacifica, CA 94044</span>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById('navToggle');
+  const links  = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+</script>
+<script src="js/donate-modal.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up — Pacifica Pony Camp 2026</title>
+  <meta name="description" content="Register for Pacifica Pony Camp 2026. Choose full weeks ($450) or individual days ($100) for children ages 6–14. June 8 – August 11 in Pacifica, CA." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐴</text></svg>" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- ── Navigation ── -->
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">
+    <span class="horseshoe">🧲</span>
+    Rescue <span>Pony</span> Club
+  </a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="donations.html" class="btn-nav">Donate</a></li>
+  </ul>
+</nav>
+
+<!-- ── Registration Form ── -->
+<section class="form-section">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label">Registration</span>
+      <h1 class="section-title">Camper Registration Form</h1>
+      <p class="section-sub">Fill in the details below. We will contact you to confirm your spot and discuss payment.</p>
+    </div>
+    <iframe
+      src="https://docs.google.com/forms/d/1r4agzG1CF7NytfZ2h1nHyjZjwy9CwVZI9EouR1sHtGw/viewform?embedded=true"
+      class="gform-embed"
+      loading="lazy"
+      title="Camper Registration Form">
+      Loading form…
+    </iframe>
+  </div>
+</section>
+
+<!-- ── Footer ── -->
+<footer>
+  <div class="footer-bottom">
+    <span>© 2026 Pacifica Pony Camp · Rescue Pony Club</span>
+    <span>📞 415-261-3433</span>
+    <span>1 Picardo Ranch, Pacifica, CA 94044</span>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById('navToggle');
+  const links  = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+</script>
+<script src="js/donate-modal.js"></script>
+
+</body>
+</html>
