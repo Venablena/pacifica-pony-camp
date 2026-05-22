@@ -1,6 +1,5 @@
 (function () {
-  // ← Replace with your real PayPal.Me link or donate button URL
-  var PAYPAL_URL = 'https://www.paypal.me/rescueponyclub';
+  var PAYPAL_URL = 'https://givebutter.com/NyLQaU';
 
   var backdrop = document.createElement('div');
   backdrop.className = 'modal-backdrop';
@@ -10,7 +9,7 @@
       '<div style="font-size:2.6rem;margin-bottom:.5rem;">🐴</div>' +
       '<h2 id="donateModalTitle">Support Rescue Pony Club</h2>' +
       '<p>Your gift helps cover the cost of feeding and caring for rescue ponies.</p>' +
-      '<a class="btn btn-paypal" href="' + PAYPAL_URL + '" target="_blank" rel="noopener">Donate via PayPal</a>' +
+      '<a class="btn btn-paypal" href="' + PAYPAL_URL + '" target="_blank" rel="noopener">Donate Now</a>' +
       '<p class="modal-footer-note">Questions? Call Annie: <a href="tel:4152613433">415-261-3433</a></p>' +
     '</div>';
 
