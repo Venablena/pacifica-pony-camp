@@ -183,6 +183,11 @@ section { padding: 2rem; }
   box-shadow: 0 16px 40px rgba(61,43,31,.28);
 }
 
+.enroll-section{
+  background: var(--coral);
+  padding: 1rem;
+}
+
 /* ── Quick Info Bar ── */
 .info-bar {
   background: var(--green-mid);
